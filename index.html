@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Finder</title>
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Arcade Cafe Finder</h1>
+        <form id="search-form">
+            <input type="text" id="location-input" placeholder="Enter location">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+
+    <div id="map"></div>
+
+    <section id="arcade-listings">
+        <h2>Arcade Cafes</h2>
+        <ul id="arcade-list">
+            <!-- Arcade cafe listings will be dynamically added here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
+</body>
+</html>

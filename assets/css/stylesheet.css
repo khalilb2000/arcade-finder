@@ -1,0 +1,114 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: 'Press Start 2P', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#search-form {
+    display: flex;
+    align-items: center;
+}
+
+#location-input {
+    width: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#search-form button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+    #search-form button:hover {
+        background-color: #45a049;
+    }
+
+#map {
+    height: 400px;
+    margin: 20px;
+}
+
+#arcade-listings {
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+#arcade-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    #arcade-list li {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+        #arcade-list li:hover {
+            background-color: #f5f5f5;
+        }
+
+        #arcade-list li h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        #arcade-list li p {
+            margin-top: 5px;
+            color: #888;
+        }
+
+        #arcade-list li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    #location-input {
+        width: 150px;
+    }
+
+    #search-form button {
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+
+    #arcade-list li h3 {
+        font-size: 18px;
+    }
+}
